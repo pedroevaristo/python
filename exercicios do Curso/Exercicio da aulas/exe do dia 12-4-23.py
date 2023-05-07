@@ -3,12 +3,12 @@
 
 senha = ['15-e']
 verifyBlock = 1
-login = input('Digite seu login:')
+# login = input('Digite seu login:')
 password = input('Digite a senha: ')
 
 while True:
     if password != senha[0]:
-        input(f'Tem {verifyBlock} de 3 chances para não ser bloqueado.\nPor favor digite novamente:')
+        password = input(f'Tem {verifyBlock} de 3 chances para não ser bloqueado.\nPor favor digite novamente:')
         verifyBlock += 1
         if verifyBlock == 3:
             print('Conta bloqueado, crie uma nova senha')
