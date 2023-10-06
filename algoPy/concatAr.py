@@ -23,8 +23,4 @@ for i in range(2*n):
 # não é a parte do quociente
 
 print(ans)
-#ans = nums.copy()
 
-#if ans == nums:
-    #nums = ans
-#    print(f"Junção dos nums e ans {nums} {ans}")
